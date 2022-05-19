@@ -301,12 +301,6 @@ ul {
     display: block;
 }
 
-.section-do__card-img {
-    display: block;
-
-    margin: 0px auto 25px auto;
-}
-
 .section-do__item:not(:last-child) {
     margin-right: 30px;
 }
@@ -319,6 +313,9 @@ ul {
 .section-do__card-img {
     width: 68px;
     height: 68px;
+
+    display: block;
+    margin: 0px auto 25px auto;
 
     background-size: contain;
     background-position: center center;
