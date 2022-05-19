@@ -143,7 +143,7 @@ ul {
     border-bottom: 4px solid #3172b9 !important;
 }
 
-.header__nav-item:hover > .header__nav-link {
+.header__nav-item:hover>.header__nav-link {
     transition-duration: 200ms;
     color: #3172b9;
 }
@@ -286,6 +286,17 @@ ul {
     border-radius: 30px;
 }
 
+.section-do__item:hover {
+    color: white;
+    background-color: #3172b9;
+    cursor: pointer;
+}
+
+.section-do__item:hover .section-do__item-description,
+.section-do__item:hover .section-do__item-heading {
+    color: white;
+}
+
 .section-do__item-heading {
     display: block;
 }
@@ -302,6 +313,48 @@ ul {
 
 .section-do__item-description {
     margin: 15px 0px 0px 0px;
+    color: #787878;
+}
+
+.section-do__card-img {
+    width: 68px;
+    height: 68px;
+
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.section-do__card-img1 {
+    background-image: url('/img/section-do-img-1-1.png');
+}
+
+.section-do__item:hover .section-do__card-img1 {
+    background-image: url('/img/section-do-img-1-2.png');
+}
+
+.section-do__card-img2 {
+    background-image: url('/img/section-do-img-2-1.png');
+}
+
+.section-do__item:hover .section-do__card-img2 {
+    background-image: url('/img/section-do-img-2-2.png');
+}
+
+.section-do__card-img3 {
+    background-image: url('/img/section-do-img-3-1.png');
+}
+
+.section-do__item:hover .section-do__card-img3 {
+    background-image: url('/img/section-do-img-3-2.png');
+}
+
+.section-do__card-img4 {
+    background-image: url('/img/section-do-img-4-1.png');
+}
+
+.section-do__item:hover .section-do__card-img4 {
+    background-image: url('/img/section-do-img-4-2.png');
 }
 
 /* Section Clients */
