@@ -352,6 +352,7 @@ ul {
 }
 
 .section-do__card-img4 {
+    transform: translateX(-8px);
     background-image: url('/img/section-do-img-4-1.png');
 }
 
