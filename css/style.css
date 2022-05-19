@@ -85,6 +85,10 @@ ul {
     text-decoration: underline;
 }
 
+.btn:active {
+    transform: translateY(1px);
+}
+
 .section-heading {
     color: #414141;
     font-size: 36px;
