@@ -289,7 +289,7 @@ ul {
     flex: 1 1 25%;
     padding: 60px 30px 60px 30px;
 
-    transition: background-color .5s ease;    
+    transition: background-color .5s ease;
 
     text-align: center;
     border: 1px solid #e4e4e4;
@@ -327,7 +327,7 @@ ul {
 
     display: block;
     margin: 0px auto 25px auto;
-    
+
     transition: background-image .3s ease;
 
     background-size: contain;
