@@ -35,6 +35,10 @@
     outline: 3px solid #ccc;
 }
 
+*:active {
+    outline: none;
+}
+
 html {
     font-family: 'Open Sans', sans-serif;
 }
