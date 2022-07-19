@@ -603,6 +603,10 @@ ul {
     display: inline-block;
 }
 
+.footer__nav-link {
+    color: #414141;
+}
+
 .footer__copyright {
     margin-left: 20px;
     display: inline-block;
