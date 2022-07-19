@@ -4,9 +4,9 @@
     font-style: normal;
     font-weight: 300;
     src: local(''),
-        url('/fonts/open-sans-v28-latin-300.woff2') format('woff2'),
-        url('/fonts/open-sans-v28-latin-300.woff') format('woff'),
-        url('/fonts/open-sans-v28-latin-300.eot');
+        url('fonts/open-sans-v28-latin-300.woff2') format('woff2'),
+        url('fonts/open-sans-v28-latin-300.woff') format('woff'),
+        url('fonts/open-sans-v28-latin-300.eot');
 }
 
 @font-face {
@@ -14,9 +14,9 @@
     font-style: normal;
     font-weight: 400;
     src: local(''),
-        url('/fonts/open-sans-v28-latin-regular.woff2') format('woff2'),
-        url('/fonts/open-sans-v28-latin-regular.woff') format('woff'),
-        url('/fonts/open-sans-v28-latin-regular.eot');
+        url('fonts/open-sans-v28-latin-regular.woff2') format('woff2'),
+        url('fonts/open-sans-v28-latin-regular.woff') format('woff'),
+        url('fonts/open-sans-v28-latin-regular.eot');
 }
 
 @font-face {
@@ -24,9 +24,9 @@
     font-style: normal;
     font-weight: 600;
     src: local(''),
-        url('/fonts/open-sans-v28-latin-600.woff2') format('woff2'),
-        url('/fonts/open-sans-v28-latin-600.woff') format('woff'),
-        url('/fonts/open-sans-v28-latin-600.eot');
+        url('fonts/open-sans-v28-latin-600.woff2') format('woff2'),
+        url('fonts/open-sans-v28-latin-600.woff') format('woff'),
+        url('fonts/open-sans-v28-latin-600.eot');
 }
 
 /* Common classes */
@@ -199,7 +199,7 @@ ul {
     margin: 0px auto;
     padding: 0px;
 
-    background-image: url("/img/hero-background.jpg");
+    background-image: url("img/hero-background.jpg");
     background-position: right center;
     /* background-position-x: 551px; */
     background-size: auto 100%;
@@ -270,7 +270,7 @@ ul {
     height: 17px;
     margin-right: 10px;
 
-    background: url("/img/shield-icon.png") center center no-repeat transparent;
+    background: url("img/shield-icon.png") center center no-repeat transparent;
     background-size: contain;
 }
 
@@ -347,36 +347,36 @@ ul {
 }
 
 .section-do__card-img1 {
-    background-image: url('/img/section-do-img-1-1.png');
+    background-image: url('img/section-do-img-1-1.png');
 }
 
 .section-do__item:hover .section-do__card-img1 {
-    background-image: url('/img/section-do-img-1-2.png');
+    background-image: url('img/section-do-img-1-2.png');
 }
 
 .section-do__card-img2 {
-    background-image: url('/img/section-do-img-2-1.png');
+    background-image: url('img/section-do-img-2-1.png');
 }
 
 .section-do__item:hover .section-do__card-img2 {
-    background-image: url('/img/section-do-img-2-2.png');
+    background-image: url('img/section-do-img-2-2.png');
 }
 
 .section-do__card-img3 {
-    background-image: url('/img/section-do-img-3-1.png');
+    background-image: url('img/section-do-img-3-1.png');
 }
 
 .section-do__item:hover .section-do__card-img3 {
-    background-image: url('/img/section-do-img-3-2.png');
+    background-image: url('img/section-do-img-3-2.png');
 }
 
 .section-do__card-img4 {
     transform: translateX(-8px);
-    background-image: url('/img/section-do-img-4-1.png');
+    background-image: url('img/section-do-img-4-1.png');
 }
 
 .section-do__item:hover .section-do__card-img4 {
-    background-image: url('/img/section-do-img-4-2.png');
+    background-image: url('img/section-do-img-4-2.png');
 }
 
 /* Section Clients */
@@ -491,15 +491,15 @@ ul {
 }
 
 .section-contacts__icon1 {
-    background-image: url("/img/contacts-gps.png");
+    background-image: url("img/contacts-gps.png");
 }
 
 .section-contacts__icon2 {
-    background-image: url("/img/contacts-phone.png");
+    background-image: url("img/contacts-phone.png");
 }
 
 .section-contacts__icon3 {
-    background-image: url("/img/contacts-mail.png");
+    background-image: url("img/contacts-mail.png");
     background-size: auto 19px;
 }
 
@@ -640,15 +640,15 @@ ul {
 }
 
 .footer__social-twitter-icon {
-    background-image: url("/img/Twitter.png");
+    background-image: url("img/Twitter.png");
 }
 
 .footer__social-linkedin-icon {
-    background-image: url("/img/Linkedin.png");
+    background-image: url("img/Linkedin.png");
 }
 
 .footer__social-email-icon {
-    background-image: url("/img/Email.png");
+    background-image: url("img/Email.png");
 }
 
 @media (max-width: 1200px) {
